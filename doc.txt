@@ -1,0 +1,23 @@
+Bootstrap 5 Tutorial
+
+Tables
+
+Class Selectors
+.table
+.table-borderd
+.table-borderless 
+.table-striped 
+.table-hover 
+
+Table Colors
+
+.table-primary	
+.table-success
+.table-danger
+.table-info	
+.table-warning
+.table-active
+.table-secondary	
+.table-light
+.table-dark
+

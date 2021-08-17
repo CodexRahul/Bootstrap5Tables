@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5 Tables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+      body{
+        padding: 20px;
+      }
+      .table{
+        margin-bottom: 50px;
+      }
+    </style>
+</head>
+<body>
+
+    <div class="basic_table">
+      <h1>Basic Table</h1>
+      <table class="table">
+        <thead class="bg-dark text-white">
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="bg-primary text-white">John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td class="bg-danger text-white">mary@example.com</td>
+            <td >35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="basic_table">
+      <h1>Table Borderd</h1>
+      <table class="table table-borderd">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="basic_table">
+      <h1>Table Borderless</h1>
+      <table class="table table-borderless">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="basic_table">
+      <h1>Table Striped</h1>
+      <table class="table table-striped">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="basic_table">
+      <h1>Table Hover</h1>
+      <table class="table table-hover">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Primary</h1>
+      <table class="table table-primary">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Success</h1>
+      <table class="table table-success">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Danger</h1>
+      <table class="table table-danger">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Info</h1>
+      <table class="table table-info">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Warning</h1>
+      <table class="table table-warning">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Active</h1>
+      <table class="table table-active">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Secondary</h1>
+      <table class="table table-secondary">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Light</h1>
+      <table class="table table-light">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="basic_table">
+      <h1>Table Dark</h1>
+      <table class="table table-dark">
+        <thead>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Education</th>
+          <th>Hobby</th>
+          <th>Occupation</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>jogh@example.com</td>
+            <td>25 yrs</td>
+            <td>Msc</td>
+            <td>Listing Music</td>
+            <td>Service</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>35 yrs</td>
+            <td>Bsc</td>
+            <td>Cricket</td>
+            <td>Business</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>30 yrs</td>
+            <td>Hs</td>
+            <td>Drawing</td>
+            <td>Self-Employed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+   
+    
+    
+</body>
+</html>
